@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0A9EFC</color>
+    <color name="colorPrimaryDark">#026EB1</color>
+
+    <color name="colorAccent">#45475E</color>
+    <color name="present">#2A8E2A</color>
+    <color name="absent">#FF002A</color>
+    <color name="hwstate">#009F75</color>
+    <color name="trans_primary">#1A0A9EFC</color>
+
+    <color name="pending">#FFA707</color>
+    <color name="waiting_in_progress">#1B8A31</color>
+    <color name="all">#B267FF</color>
+
+
+
+
+
+</resources>

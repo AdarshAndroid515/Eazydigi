@@ -1,0 +1,26 @@
+[
+   {
+      "id":1,
+      "value":"English"
+   },
+   {
+      "id":2,
+      "value":"Science"
+   },
+   {
+      "id":3,
+      "value":"Social Science"
+   },
+   {
+      "id":4,
+      "value":"Maths"
+   },
+   {
+      "id":5,
+      "value":"Hindi"
+   },
+   {
+      "id":6,
+      "value":"Computer"
+   }
+]

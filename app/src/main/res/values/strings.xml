@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">EazyLearn</string>
+    <string name="app_tagline">Excellence Is Service</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="alert_check_connection">Please check your internet connection.</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Got it!</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="sorry">Sorry</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+
+    <string name="please_wait">Please wait...</string>
+    <string name="signing_in">signing in...</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="are_you_sure_logout">Are you sure you want to Logout?</string>
+    <string name="something_went_wrong">Something went wrong...</string>
+
+    <string name="error_enter_school_code">Please enter School Code</string>
+    <string name="error_enter_username">Please enter Username</string>
+    <string name="error_enter_email">Please enter email</string>
+    <string name="error_enter_password">Please enter Password</string>
+    <string name="error_enter_repeat_password">Please enter Repeat Password</string>
+    <string name="error_password_not_matched">Password not matched</string>
+    <string name="error_enter_valid_email">Please enter valid email</string>
+    <string name="error_enter_first_name">Please enter first name</string>
+    <string name="error_enter_last_name">Please enter last name</string>
+    <string name="error_enter_father_name">Please enter father name</string>
+    <string name="error_enter_mother_name">Please enter mother name</string>
+    <string name="error_enter_middle_name">Please enter middle name</string>
+    <string name="error_enter_contact_number">Please enter contact number</string>
+    <string name="error_enter_valid_contact_number">Please enter valid contact number</string>
+    <string name="error_enter_preschool_name">Please enter valid contact number</string>
+
+    <string name="password_length">Please enter password with minimum 6 character</string>
+    <string name="password_not_match">Password and Repeat password do not match</string>
+    <string name="coming_soon">Coming Soon!</string>
+
+    <!--LOGIN-->
+    <string name="hint_email">Email</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_school_code">School Code</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+
+    <!--REGISTER-->
+    <string name="hint_fname">First Name</string>
+    <string name="hint_mname">Middle Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="hint_fathername">Father Name</string>
+    <string name="hint_mothername">Mother Name</string>
+    <string name="hint_contact">Contact No.</string>
+    <string name="hint_previous_school">Previous School</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="gender">Gender</string>
+    <string name="about_us">About Us</string>
+    <string name="parm_address">Parmanent Address</string>
+    <string name="current_address">Current Address</string>
+    <string name="school_name">School Name</string>
+    <string name="adhar_number">Adhar Number</string>
+    <string name="parent_ocupation">Parent Occupation</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_ifsc">Bank IFSC Code</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="applicant">Applicant</string>
+    <string name="staff">Staff</string>
+
+    <!--FORGOT PASSWORD-->
+    <string name="back_to_login">Back to LOGIN</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!--NOTICES & CIRCULARS-->
+    <string name="notices_circulars">Notices &amp; Circulars</string>
+    <string name="notices">Notices</string>
+    <string name="circulars">Circulars</string>
+    <string name="notice">Notice</string>
+    <string name="circular">Circular</string>
+    <string name="no_circulars_available">No Circulars Available...</string>
+    <string name="no_notices_available">No Notices Available...</string>
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="create_notice_circular">Create Notice/Circular</string>
+    <string name="create">Create</string>
+    <string name="error_enter_title">Please enter Title</string>
+    <string name="error_enter_description">Please enter Description</string>
+    <string name="error_enter_start_date">Please enter Start Date</string>
+    <string name="active_status">Active</string>
+
+    <!-- MARKATTENDANCE-->
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="attendance_date">Attendance Date</string>
+    <string name="absent">Absent</string>
+    <string name="present">Present</string>
+    <string name="holiday">Holiday</string>
+    <string name="late">Late</string>
+    <string name="all_absent">All Absent</string>
+    <string name="all_present">All Present</string>
+    <string name="all_holiday">All Holiday</string>
+    <string name="all_late">All Late</string>
+    <string name="save">save</string>
+    <string name="write_note">Write Note...</string>
+    <string name="attendance_update_successfully">Attendance Updated Successfully...</string>
+
+    <!--PROFILE-->
+    <string name="user_information">User Information</string>
+    <string name="parent_information">Parents Information</string>
+    <string name="bank_information">Bank Information</string>
+    <string name="fee_payment_detail">Fee Payment Details</string>
+
+    <!--SCHOOL PROFILE-->
+    <string name="school_profile">School Profile</string>
+    <string name="school_short_name">School Short Name</string>
+    <string name="school_full_name">School Full Name</string>
+    <string name="fax_number">Fax Number</string>
+    <string name="address">Address</string>
+    <string name="affiliation_number">Affiliation number</string>
+    <string name="school_number">School number</string>
+    <string name="account_holder_name">Account Holder\'s Name</string>
+
+    <!--    ACADEMIC REPORT-->
+    <string name="academic_report">Academic Report</string>
+    <string name="attendance_report">Attendance Report</string>
+
+    <!-- HOMEWORK -->
+    <string name="home_work">Home Work</string>
+    <string name="work_progress">Work in Progress</string>
+    <string name="completed">Completed</string>
+    <string name="over_due">Over Due</string>
+    <string name="re_viewed">Reviewed</string>
+    <string name="need_rework">Need re-work</string>
+    <string name="waiting_review">Waiting For re-view </string>
+    <string name="subject">Subject</string>
+    <string name="due_date">Due on </string>
+    <string name="status">Status</string>
+    <string name="header">Header</string>
+    <string name="homework_header">Homework Header</string>
+    <string name="homework_detail">Homework Detail</string>
+    <string name="assigned_on">Assigned On</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="error_enter_due_date">Please Enter Due Date</string>
+    <string name="error_enter_header">Please Enter Header</string>
+    <string name="update">Update</string>
+    <string name="assign_homework">Assign Homework</string>
+    <string name="update_homework">Update Homework</string>
+
+    <!--    ADMINATTENDANCEREPORT-->
+    <string name="student_class">Class</string>
+    <string name="section">Section</string>
+    <string name="search">Search</string>
+    <string name="roll_no">Roll No</string>
+    <string name="student_name">Student Name</string>
+    <string name="attendance">Attendance</string>
+
+    <!--    FEE PAYMENTDETAIL-->
+    <string name="paid_amount">Paid Amount</string>
+    <string name="fee_month">Fee Month</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="late_charges">Late Charges</string>
+    <string name="pending">Pending</string>
+    <string name="paid">Paid</string>
+    <string name="no_pending_fees">No Pending Fees Available</string>
+    <string name="no_paid_fees">No Paid Fees Available</string>
+
+    <!--    FEE COLLECTION-->
+    <string name="fee_collection">Fee Collection</string>
+    <string name="fee_collection_detail">Fee Collection Detail</string>
+    <string name="admission_id">Admission Id</string>
+    <string name="class_id">Class Id</string>
+    <string name="section_id">Section Id</string>
+    <string name="collect_fee">Collect Fee</string>
+    <string name="collect_fee_detail">Collect Fee Detail</string>
+    <string name="course">Course</string>
+
+
+
+</resources>

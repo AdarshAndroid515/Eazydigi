@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.eazydigi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.app.eazydigi.util.MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name="com.app.eazydigi.activity.DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.eazydigi.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.app.eazydigi.activity.ForgotPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.app.eazydigi.activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.app.eazydigi.activity.NoticesCircularsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.CreateNoticeCircularActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.MarkAttendanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.AcademicReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.AttendanceReportForStudentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.AttendanceReportForAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.AttendanceReportForTeacherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.AssignHomeWorkActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.app.eazydigi.activity.UpdateHomeWorkByTeacherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.UpdateHomeWorkByStudentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.TeacherHomeworkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.StudentHomeworkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.FeePaymentDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.eazydigi.activity.FeeCollectionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.app.eazydigi.activity.FeeCollectionDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.app.eazydigi.activity.CollectFeeDetailForStudentActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.app.eazydigi.activity.LeaveRequestStudent"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.eazydigi.activity.CreateNewLeaveRequest"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.eazydigi.activity.LeaveListAdmin"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.eazydigi.activity.UpdateLeaveAdmin"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.eazydigi.activity.NoticesCircularSTActivity"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name="com.app.eazydigi.fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>

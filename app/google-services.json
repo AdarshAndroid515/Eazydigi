@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "266915197438",
+    "firebase_url": "https://eazydigiandroidapp.firebaseio.com",
+    "project_id": "eazydigiandroidapp",
+    "storage_bucket": "eazydigiandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266915197438:android:3a3e710bba034e8470d0af",
+        "android_client_info": {
+          "package_name": "com.app.eazydigi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266915197438-6iom3b1588h2c2lf02fkd6tg3pj5iroi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGyLlklVTY5i32mm8PM3ZlvwU9rTgS3bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266915197438-6iom3b1588h2c2lf02fkd6tg3pj5iroi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

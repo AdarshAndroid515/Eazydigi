@@ -1,0 +1,5 @@
+key store path - Eazydigi\app\docs
+key store password - eazydigi@123
+
+alias - eazydigi
+password - eazydigi@123

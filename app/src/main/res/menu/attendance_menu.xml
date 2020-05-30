@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_absent"
+        android:orderInCategory="100"
+        android:title="@string/all_absent"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_present"
+        android:orderInCategory="100"
+        android:title="@string/all_present"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_holiday"
+        android:orderInCategory="100"
+        android:title="@string/all_holiday"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_late"
+        android:orderInCategory="100"
+        android:title="@string/all_late"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save_white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_date"
+        android:orderInCategory="100"
+        android:title="@string/attendance_date"
+        android:visible="false"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="always" />
+</menu>
